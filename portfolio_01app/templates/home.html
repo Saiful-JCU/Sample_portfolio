@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lan='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        {% load static %}
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'style.css' %}" >
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header">
+            <a herf="#" class="logo"><span>Saiful.</span>Islam</a>
+            <nav class="navbar"> 
+                <a herf="#" class="active">portfolio</a>
+                <a herf="#">Service</a>
+                <a herf="#">Experience</a>
+                <a herf="#">Projects</a>
+                <a herf="#">Education</a>
+            </nav>
+            <a herf="#" class="contact"> Contact Me </a>
+        </header>
+        
+        <section class="home">
+            <div class="home-content">
+                <h3>Hi</h3>
+                <h1>I'm <span>Saful <br></span> a Frontend Developer</h1>
+                <p>Clear Browser Cache: Sometimes, the browser may cache the old CSS file. Try clearing the browser cache or opening the website in a new incognito/private window</p>
+                <div class="btn-box">
+                    <button class="btn-1">Hire Me</button>
+                    <button class="btn-2">Experience</button>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="{%static 'images/saiful_photo.jpg' %}"alt="Photo">
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about_img">
+                <img src="images/saiful_photo.jpg" alt="photo">
+            </div>
+            <div class="about_content">
+                <h2 class="heading"> About<span>Me</span></h2>
+                <h3>Frontend<span>Developer</span></h3>
+                <p>loremThis should help resolve any lingering permission issues and allow you to commit your changes successfully. If you still encounter problems, it might be helpful to provide more context or specific error messages for further assistance. </p>
+                <a href="#" class="btn-2">Experience</a>
+            </div>
+        </section>
+
+        <section class="contact_form">
+            <h2 class="contatc_me">Contact <span>Me</span><h2>
+                <form action="#">
+                    <div class="input_box">
+                        <input type="text" placeholder="Enter your Name">
+                        <input type="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="input_box">
+                        <input type="number" placeholder="Enter your Phone number">
+                        <textarea name="" id="" clos="30" row ="10" placeholder="write your messaes"></textarea>
+                        <button class="btn-1" type="submit" >Send message</button>
+                    </div>
+                </action>
+        </section>
+        
+        <footer class="footer">
+            <div class="social">
+                <a herf="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a herf="#"><i class='bx bxl-linkedin' ></i></box-icon></a>
+                <a herf="#"><i class='bx bxl-twitter'></i></a>
+                <a herf="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <ul class="list">
+                <li><a herf="#">FAQ</a></li>
+                <li><a herf="#">Service</a></li>
+                <li><a herf="#">About Me</a></li>
+                <li><a herf="#">Contact</a></li>
+                <li><a herf="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">@ 2024 Saiful | All Rights Reserved</p>
+        </footer>
+
+        <script src="" async defer></script>
+    </body>
+</html>
